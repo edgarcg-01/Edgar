@@ -1,0 +1,39 @@
+head{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 3px;
+   margin:  3%;
+   -webkit-box-shadow: 13px 14px 6px 3px rgba(0,0,0,0.76);
+   -moz-box-shadow: 13px 14px 6px 3px rgba(0,0,0,0.76);
+   box-shadow: 13px 14px 6px 3px rgba(0,0,0,0.76);
+
+}
+body{
+    text-align: center;
+    display: flex;
+    border-bottom: violet;
+    margin: 5px;
+    border: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    position: relative;
+    height: 650px;
+    background: rgb(241, 39, 17);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(245, 175, 25, 0.701), rgba(241, 39, 17, 0.701)),url(https://www.bing.com/images/search?view=detailV2&ccid=ZMYEEq3j&id=A7D66C4ED17DE443FFC6397BCB433CE3BCE072EE&thid=OIP.ZMYEEq3jVMUw5oFhqWtXhwHaEK&mediaurl=http%3a%2f%2fwww.iwsconsultores.com%2fwp-content%2fuploads%2f2016%2f05%2f00-kk.jpg&exph=900&expw=1600&q=fonods+para+pagina+web&simid=608018659770632153&selectedIndex=118&ajaxhist=0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(245, 175, 25, 0.708), rgba(241, 39, 17, 0.708)),url(https://www.bing.com/images/search?view=detailV2&ccid=ZMYEEq3j&id=A7D66C4ED17DE443FFC6397BCB433CE3BCE072EE&thid=OIP.ZMYEEq3jVMUw5oFhqWtXhwHaEK&mediaurl=http%3a%2f%2fwww.iwsconsultores.com%2fwp-content%2fuploads%2f2016%2f05%2f00-kk.jpg&exph=900&expw=1600&q=fonods+para+pagina+web&simid=608018659770632153&selectedIndex=118&ajaxhist=0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.musica{
+ display: flex;
+justify-content:space-between;
+text-align: left;
+padding: 10px;
+font-size: 16px;
+}
+
